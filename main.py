@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-	return '<h1>Hello, World!</h1>'
+	return "<h1>Hello, World!</h1><a href='/index'>Перейти на 2-ую страницу</a>"
 
 @app.route('/index')
 def index():
